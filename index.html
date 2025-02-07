@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <img src="Arit.jpg" alt="Profile Picture" data-testid="profilePicture" />
+
+      <h2 data-testid="fullName">Osemwengie Arit Bright</h2>
+      <h3 data-testid="jobTitle">Frontend Developer</h3>
+      <p data-testid="shortBio">
+        I'm a results-oriented Frontend Developer with a passion for building
+        high-quality, user-centered web applications. I possess a strong
+        foundation in HTML, CSS, and JavaScript, and I'm proficient in React.
+        I'm eager to contribute my skills to a dynamic team and help create
+        innovative and impactful digital products
+      </p>
+      <p data-testid="currentLocation">Lagos State, Nigeria</p>
+      <p data-testid="emailAddress">osemwengiearit@gmail.com</p>
+      <div class="social-links" data-testid="socialLinks">
+        <a href="https://github.com/osemwengiearit" target="_blank">GitHub</a>
+        <a
+          href="https://web.facebook.com/profile.php?id=100089438610356"
+          target="_blank"
+          >Facebook</a
+        >
+        <a
+          href="https://www.linkedin.com/in/osemwengie-arit-bright-a84a28159/"
+          target="_blank"
+          >LinkedIn</a
+        >
+      </div>
+      <p id="utc-time" data-testid="currentTimeUTC">Loading time...</p>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
